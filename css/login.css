@@ -1,5 +1,5 @@
 body {
-    background: orange;
+    background: plum;
 }
 
 form {
@@ -26,7 +26,20 @@ form > input {
     border-radius: 10px;
 }
 
+form a {
+    text-decoration: none;
+    color: inherit;
+    transition: all .3s ease-out;
+}
+
+form a:hover {
+    color: orange;
+}
+
 input[type=submit] {
-    background: olivedrab;
+    background: purple;
+    color: white;
+    width: auto;
+    padding: 0 15px;
     text-indent: 0;
 }
