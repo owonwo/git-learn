@@ -1,0 +1,32 @@
+body {
+    background: orange;
+}
+
+form {
+    width: 300px;
+    padding: 30px;
+    margin: 30px auto;
+    background: white;
+    box-shadow: 0 3px 6px rgba(0,0,0,.3);
+}
+
+form > h3 {
+    margin-top: 0px;
+    font-size: 1.5em;
+}
+
+form > input {
+    width: 100%;
+    border: none;
+    height: 30px;
+    display: block;
+    text-indent: 15px;
+    background: #ccc;
+    margin-bottom: 15px;
+    border-radius: 10px;
+}
+
+input[type=submit] {
+    background: olivedrab;
+    text-indent: 0;
+}
